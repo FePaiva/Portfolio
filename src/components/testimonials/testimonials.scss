@@ -1,11 +1,20 @@
+@import "../../global.scss";
+
 .testimonials {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include mobile{
+    justify-content: space-around;
+  }
 
   h1 {
     font-size: 50px;
+
+    @include mobile{
+      font-size: 20px;
+    }
   }
 
   .container {
@@ -15,6 +24,10 @@
     align-items: center;
     justify-content: center;
     
+    @include mobile{
+      flex-direction: column;
+      height: 100%;
+    }
 
 
     .card {
@@ -26,14 +39,25 @@
       flex-direction: column;
       justify-content: space-around;
       padding: 20px;
-      transition: all 1s ease;
+      transition: all 2s ease;
       // background-color: rgb(250, 244, 245);
+
+      @include mobile{
+        height: 180px;
+        margin: 10px 0;
+      }
 
 
       &.featured{
           width: 300px;
           height: 75%;
           margin: 0 30px;
+
+          @include mobile{
+            // height: 180px;
+            // width: 250px;
+            margin: 1px;
+          }
       }
 
       &:hover{
@@ -56,6 +80,11 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 30px;
+
+            @include mobile{
+              height: 45px;
+              width: 45px;
+            }
           }
         }
       }
@@ -65,6 +94,11 @@
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
         box-shadow: 0px 0px 15px -8px rgb(206, 54, 54);
+
+        @include mobile{
+          font-size: 12px;
+          padding: 5px;
+        }
       }
       .bottom {
         display: flex;
@@ -74,9 +108,16 @@
 
         h3 {
           margin-bottom: 5px;
+
+          @include mobile{
+            font-size: 14px;
+          }
         }
         h4{
             color: rgb(121, 115, 115);
+            @include mobile{
+              font-size: 13px;
+            }
         }
       }
     }

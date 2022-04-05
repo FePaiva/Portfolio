@@ -23,7 +23,7 @@ export default function Portfolio() {
       },
       {
         id: "instapaulo",
-        title: "Insta Paulo Gallery",
+        title: "Insta Paulo",
       },
       {
         id: "flatspace",
