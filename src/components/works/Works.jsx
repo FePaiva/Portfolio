@@ -6,12 +6,14 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/glassmedsmini.png",
-      title: "GlassMeds",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      icon: "./assets/game.png",
+      title: "Slippy",
+      demo: "assets/sleepy.mp4",
+      description1:
+        "Retro clicker game about a slime named Slippy.",
+      description2: "Go to his house and discover what he can do.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "assets/IdleBedroom.gif",
     },
     {
       id: "2",
@@ -45,17 +47,23 @@ export default function Works() {
                   <div className="item">
                       <div className="left">
                             <div className="leftContainer">
-                                <div className="imagContainer">
+                                <div className="imgContainer">
                                     <img 
                                     src={d.icon} 
                                     alt=""
                                     />
                                 </div>
-                                <h2>{d.title}</h2>
+                                <h2>
+                                  {d.title}
+                                </h2>
                                 <p>
-                                  {d.description}
+                                  {d.description1}
+                                  <br></br>
+                                  <br></br>
+
+                                  {d.description2}
                                 </p>
-                                <span>Projects</span>
+                                <span><a href={d.demo}>Demo</a></span>
                             </div>
                       </div>
                       <div className="right">

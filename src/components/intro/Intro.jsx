@@ -27,9 +27,23 @@ export default function Intro() {
       </div>
       <div className="right">
           <div className="wrapper">
-            <h2>Hi There, I am </h2>
+            <h3>Hi! My name is</h3>
             <h1> Felippe Paiva</h1>
             <h3>Software Engineer <span ref={textRef}></span></h3>
+            {/* <div className="intro"> */}
+            {/* <p>
+                I like to be out of my comfort zone and learn new things. That is what made me move to a new country, and now leave my career as a Global Mobility professional to pursue a new passion in coding. 
+                <br></br>
+                <br></br>
+                I decided to trade the mobility role for the coding role when I noticed that I was spending a lot of time with the technology team in previous jobs, sharing my expertise so they could create something that would make our business more efficient. 
+                <br></br>
+                <br></br>
+                It excites me to know that by learning Ruby, Rails, Javascript and React, I can engineer tools and partner with others to build powerful problem solving mechanisms.
+                <br></br>
+                <br></br>
+                My main focus is to integrate technology and people to optimize processes.
+            </p> */}
+            {/* </div> */}
           </div>
           <a href="#portfolio">
               <img src="assets/down.png" alt="" />

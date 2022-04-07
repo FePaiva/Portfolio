@@ -33,7 +33,7 @@
             height: 90%;
 
             @include mobile{
-              height: 50%;
+              height: 60%;
             }
           }
       }
@@ -76,7 +76,7 @@
 
           @include mobile{
             font-size:20px;
-        }
+          }
 
           span{
             font-size:inherit;
@@ -97,6 +97,7 @@
           }
 
         }
+        
 
       }
       a{
