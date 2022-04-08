@@ -9,27 +9,24 @@ export default function Works() {
       icon: "./assets/game.png",
       title: "Slippy",
       demo: "assets/sleepy.mp4",
-      description1:
-        "Retro clicker game about a slime named Slippy.",
+      description1: "Retro clicker game about a slime named Slippy.",
       description2: "Go to his house and discover what he can do.",
-      img:
-        "assets/IdleBedroom.gif",
+      img:"assets/IdleBedroom.gif",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      icon: "./assets/money.png",
+      title: "GlassMeds",
+      description1:
+        "Increases medical cost transparency and offers insights into the patient experience with hospitals and clinics.",
+      img:"assets/glassmeds.png"    
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Flatspace",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Social media app for Flatiron School students to share their experiences and connect with others.",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
